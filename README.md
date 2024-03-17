@@ -13,3 +13,7 @@ java -jar bundletool-all-1.15.6.jar build-apks --bundle=app.aab --output=my_job_
 # Generate Keystore
 
 keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+# create-expo-app
+
+npx create-expo-app@latest -e with-router
