@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "name": "my_react_native",
+    "slug": "my_react_native",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "33cae0c6-d754-44a8-9e9f-0dddfa7ccc1a"
+      }
+    },
+    "android": {
+      "package": "com.surajsurendran.my_react_native"
+    }
+  }
+}
